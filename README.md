@@ -104,20 +104,20 @@ bash <(curl -fsSL http://bit.ly/43JqREw)
    AUTO_STATUS_VIEW=true
    SEND_READ=true
    AJOIN=true
-   DISABLE_START_MESSAGE=false
+   DISABLE_START_MESSAGE=true
    PERSONAL_MESSAGE=null
    ```
 
 6. **Start the Bot Using PM2:**
 
    To start the bot, run:
-
+.
    ```sh
    pm2 start . --name botName --attach --time
    ```
 
    To stop the bot, run:
-
+.
    ```sh
    pm2 stop botName
    ```
